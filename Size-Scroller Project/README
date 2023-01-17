@@ -1,0 +1,34 @@
+GAME OVERVIEW
+This is a side-scrolling platformer game. The player goes through the environment jumping onto green platforms and the blue ground, collecting yellow coins that raise the score by one, avoiding red barriers that subtract one from the score each time the player hits them, and avoiding randomly generating orange orbs that fall from above and also subtract one from the score each time one hits the player. The game uses keyboard controls. The player can move forward (right arrow), backward (left arrow), and jump (up arrow). The player can also temporarily shrink when holding the down arrow, allowing the player to pass beneath certain barriers. The player cannot jump while shrunk. Going off camera ends the game and triggers the lose condition. Reaching 20 points triggers the win condition. If the player reaches the end of the environment without having reached 20 points, they fall off the edge, triggering the lose condition.
+
+GAME BREAKDOWN 
+Game Objects
+● Player (pink square): Goes through the game environment collecting coins and avoiding barriers and orbs.
+● Ground (long blue rectangle at bottom of screen): The player can slide along it and jump on it.
+● Platforms (green rectangles): The player can slide along and jump on them.
+● Barriers (red rectangles): Subtract one from the score each time the player hits one,
+triggering the subtract sound.
+● Coins (small yellow squares): Add one to the score each time the player hits one,
+triggering the add sound.
+● Orbs (orange circles): Randomly generate and subtract one from the score each time the
+player hits one, triggering the subtract sound. Disappear when they hit other objects.
+
+Player Controls (uses keyboard)
+● Move forward: Right arrow.
+● Move backward: Left arrow.
+● Jump: Up arrow.
+● Shrink: Hold down arrow. Used to fit underneath certain barriers.
+
+Scoring
+● Earn one point: Collide with a coin (small yellow square).
+● Lose one point: Collide with a barrier (red rectangle) or orb (orange circle).
+
+Win Condition
+● Reach 20 points.
+
+Lose Conditions
+● Go off camera.
+● Fall off the edge at the end (i.e. did not reach 20 points).
+
+To Decrease Difficulty (in case you have a hard time testing the win condition)
+● In the ScoreKeeper.cs script, make the value in the if statement in Update() smaller.
