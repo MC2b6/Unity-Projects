@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Barrier
+  - Ghost
+  - Wall
+  - Point
+  - GhostBlocker
+  - EndingMessage
+  - PointsIndicator
+  - PowerPellet
+  - Reset
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Possible
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Below
+    uniqueID: 1585682647
+    locked: 0
+  - name: Above
+    uniqueID: 868216487
+    locked: 0
+  - name: Highest
+    uniqueID: 3654831841
+    locked: 0
