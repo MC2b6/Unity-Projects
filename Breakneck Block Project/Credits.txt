@@ -1,0 +1,12 @@
+BACKGROUND IMAGES
+
+alien-planet-landscape-cosmic-background-deserted-coastline-with-mountains-view-glowing-cleft-stars-shining-spheres-space-extraterrestrial-pc-game-backdrop-cartoon-vector-illustration from freepik (https://www.freepik.com/search?format=search&query=alien%20planet)
+
+cosmic-background-alien-planet-deserted-landscape-with-mountains from freepik (https://www.freepik.com/search?format=search&query=alien%20planet)
+
+midnight-blue-color-solid-background-1920x1080.png from htmlcolorcodes.com (https://htmlcolorcodes.com/colors/midnight-blue/)
+
+
+CODE ASSETS
+
+Camera.cs script inspired by the CameraControl.cs script in Professor Ian Horswill's Flight Sim assignment for CS 376 at Northwestern University
