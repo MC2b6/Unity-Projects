@@ -1,0 +1,32 @@
+Make sure Unity is in “Full HD”
+
+GAME OVERVIEW
+This game is very similar to Pac-Man. The score starts at 0 and the number of lives remaining starts at 3. The player moves through the maze collecting pellets, which raise the score by 1, and avoiding the randomly moving red enemies (Pac-Man ghosts). If a red enemy hits the player, the player’s remaining lives decrease by 1 and the player teleports to its starting point. However, if the player collects a power-pellet, the enemies turn magenta and the player’s speed slightly increases. This lasts for 7 seconds and if the player collides with a magenta enemy during this time the number of lives is not lowered and instead the score is increased by 20. A magenta enemy is destroyed when it collides with the player but a new enemy spawns in a random location.
+If all of the pellets and power-pellets are collected by the player and the number of lives remaining is still greater than 0, the pellets, power-pellets, and lives reload. If all of the pellets and power-pellets are collected by the player and the number of lives remaining is equal to 0, the game ends and shares the player’s final score. If the number of lives remaining is 0 and the player loses another life (i.e. collides with a red enemy) the game ends and share’s the player’s final score. The goal of the game is to get the highest score possible. Players should also note that going through either tunnel on the sides of the maze teleports the player to the other tunnel, giving players a way to escape enemies or just quickly cross the maze.
+
+GAME BREAKDOWN 
+Game Objects
+● Player (yellow circle): Goes through the maze collecting pellets and power-pellets and avoiding enemies while they are red and chasing enemies while they are magenta.
+● Walls: The blue walls that make up the maze.
+● Enemies (red/magenta circles): Move randomly through the maze. Usually are red and
+subtract a life if they collide with the player. When the player gets a power-pellet they turn magenta for 7 seconds and if they collide with a player during this time, the score is raised by 20 and they are destroyed (but another enemy spawns in a random location).
+● Pellets (small white squares): Add 1 to the score and are destroyed if the player collides with them.
+● Power-pellets (small white circles): Turn the enemies magenta and thus produce the behavior described under enemies.
+
+Player Controls (uses keyboard)
+● Move right: Right arrow.
+● Move left: Left arrow.
+● Move up: Up arrow.
+● Move down: Down arrow.
+● Note that movement is limited by the maze (i.e. if there is a wall to the right, the player can’t go right because it will collide with the wall).
+
+Scoring
+● Earn 1 point: Collide with a pellet (small white square).
+● Earn 20 points: Collide with a magenta enemy (magenta circle).
+● Lose 1 life: Collide with a red enemy (red circle).
+
+How Does the Game End?
+● If all of the pellets and power-pellets are collected by the player and the number of lives remaining is still greater than 0, the pellets, power-pellets, and lives reload.
+● If all of the pellets and power-pellets are collected by the player and the number of lives remaining is equal to 0, the game ends and shares the player’s final score.
+● If the number of lives remaining is 0 and the player loses another life (i.e. collides with a red enemy) the game ends and share’s the player’s final score.
+● The goal of the game is to get the highest score possible.
