@@ -1,0 +1,20 @@
+GAME OVERVIEW
+
+NOTE: Don't forget to make sure the aspect is set to Full HD!
+
+In this game, the player's goal is to navigate to the end of a course of blocks as quickly as possible. The player is the pink sphere. 
+
+The course of blocks generates dynamically at runtime, so each time the game is played, the course is different. Additionally, the course is made up of four tracks stacked along the y-axis. Thus, the player can jump between tracks and potentially land on a lower track if they fall. Sometimes, the tracks intersect. 
+
+Teal blocks are normal blocks, while orange blocks flicker on and off, posing an obstacle for the player. The green gems subtract 3 seconds from the timer running at the bottom of the screen when the player collides with one.
+
+If the player falls lower than the lowest block of the course, a game over screen is triggered. The player can press escape to restart. If the player reaches the end of any of the four tracks, they can jump into the large magenta block at the end, which triggers a success screen that reveals the player's final time. They can press escape to try again.
+
+The player controls are as follows:
+- Move in the positive x direction: right arrow key.
+- Move in the negative x direction: left arrow key.
+- Move in the positive z direction: up arrow key.
+- Move in the negative z direction: down arrow key
+NOTE: The player can move along the x and z axes at the same time (i.e. pressing the right arrow key and the up arrow key simultaneously makes the player move in the positive x and z directions).
+- Jump up (move in the positive y direction): space bar.
+NOTE: The player can only jump when they are on a block, either a normal or a vanishing one, to prevent the player from just bouncing over the course to the end. Also, the player can move in the x and z directions while in the air.
